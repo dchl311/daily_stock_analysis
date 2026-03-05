@@ -2,9 +2,9 @@ name: 每日股票分析
 
 on:
   schedule:
-    # 20:00 UTC = 04:00 北京时间
-    # 09:00 UTC = 17:00 北京时间
-    - cron: '0 20,9 * * *' 
+    # 22:30 UTC = 06:30 北京时间
+    # 09:30 UTC = 17:30 北京时间
+    - cron: '30 22,9 * * *' 
   # 手动触发
   workflow_dispatch:
     inputs:
